@@ -3,10 +3,10 @@ import logo from "../assets/logo.png";
 import { Squares2X2Icon, ArrowTrendingUpIcon, ChatBubbleLeftIcon, PhotoIcon, MusicalNoteIcon, BookmarkIcon, ArrowRightStartOnRectangleIcon } from '@heroicons/react/24/outline';
 import '../index.css';
 
-export default function Sidebar() {
+export default function Navbar() {
     return (
         <div className="fixed top-0 left-0 z-40 w-[4.5%] h-screen" aria-label="Sidebar">
-            <div className="h-full flex flex-col justify-start items-center bg-slate-700 text-gray-200">
+            <div className="h-full flex flex-col justify-start items-center bg-slate-600 text-gray-200">
                 <div className="flex flex-col py-3">
                     <img className="h-[40%] w-[100%]" src={logo} alt="Logo" />
                     <div className="font-semibold text-sm">LOGO.</div>
